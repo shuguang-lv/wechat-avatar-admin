@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-link": "/uni_modules/uni-link/components/uni-link/uni-link",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "error-log": "/windows/components/error-log",
+    "update-password": "/windows/components/update-password"
+  }
+}

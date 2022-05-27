@@ -1,0 +1,1 @@
+<view style="padding:20px;"><update-password vue-id="6d8c9624-1" hasBackButton="{{true}}" bind:__l="__l"></update-password><fix-window vue-id="6d8c9624-2" bind:__l="__l"></fix-window></view>

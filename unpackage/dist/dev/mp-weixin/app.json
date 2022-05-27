@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/error/404",
+    "pages/changepwd/changepwd"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/sign",
+      "pages": [
+        "sign-category/add",
+        "sign-category/edit",
+        "sign-category/list",
+        "sign-content/add",
+        "sign-content/edit",
+        "sign-content/list",
+        "user_sign/list"
+      ]
+    },
+    {
+      "root": "pages/photo",
+      "pages": [
+        "categories/add",
+        "categories/edit",
+        "categories/list",
+        "images/add",
+        "images/edit",
+        "images/list",
+        "users_mpweixin/list",
+        "code-mag/add",
+        "code-mag/edit",
+        "code-mag/list"
+      ]
+    },
+    {
+      "root": "pages/system",
+      "pages": [
+        "menu/list",
+        "menu/add",
+        "menu/edit",
+        "permission/list",
+        "permission/add",
+        "permission/edit",
+        "role/add",
+        "role/edit",
+        "role/list",
+        "user/add",
+        "user/edit",
+        "user/list",
+        "app/add",
+        "app/edit",
+        "app/list"
+      ]
+    },
+    {
+      "root": "pages/demo",
+      "pages": [
+        "init/init",
+        "icons/icons",
+        "table/table"
+      ]
+    }
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

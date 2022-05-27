@@ -1,0 +1,1 @@
+<view id="{{idName}}" data-event-opts="{{[['tap',[['generate',['$event']]]]]}}" bindtap="__e" class="_div"><block wx:if="{{$slots.default}}"><slot></slot></block><block wx:else>{{'Download '+name+''}}</block></view>

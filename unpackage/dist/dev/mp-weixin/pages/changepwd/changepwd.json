@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "修改密码",
+  "usingComponents": {
+    "fix-window": "/components/fix-window/fix-window",
+    "update-password": "/windows/components/update-password"
+  }
+}

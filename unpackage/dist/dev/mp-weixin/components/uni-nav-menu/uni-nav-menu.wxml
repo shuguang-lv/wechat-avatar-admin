@@ -1,0 +1,1 @@
+<view class="uni-nav-menu" style="{{'background-color:'+(backgroundColor)+';'}}"><block wx:if="{{$slots.default}}"><slot></slot></block><block wx:else><uni-menu-sidebar vue-id="bf657b7c-1" data="{{data}}" bind:__l="__l"></uni-menu-sidebar></block></view>

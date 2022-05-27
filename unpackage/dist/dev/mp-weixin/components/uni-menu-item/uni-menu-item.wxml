@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['onClickItem',['$event']]]]]}}" class="{{['uni-menu-item',(active)?'is-active':'',(disabled)?'is-disabled':'']}}" style="{{'padding-left:'+(paddingLeft)+';'+('color:'+(disabled?'#999':active?activeTextColor:textColor)+';')+('background-color:'+(active?activeBackgroundColor:'')+';')}}" bindtap="__e"><slot></slot></view>

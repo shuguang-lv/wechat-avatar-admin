@@ -1,0 +1,1 @@
+<scroll-view style="padding:15px;box-sizing:border-box;">{{''+$root.m0+''}}<text style="color:#666;font-size:15px;">{{"（ v"+adminVersion+", "+$root.m1+"）"}}</text><fix-window vue-id="8dd740cc-1" bind:__l="__l"></fix-window></scroll-view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "图标",
+  "usingComponents": {
+    "fix-window": "/components/fix-window/fix-window"
+  }
+}
