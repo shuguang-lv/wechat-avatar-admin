@@ -116,7 +116,9 @@ export default {
 					});
 					result.then(res => {
 						//获取到上传到云储存的url地址
-						this.formData.image_url=res['fileID'];
+						uniCloud.getTempFileURL({fileList: [res['fileID']]}).then(res => {
+							this.formData.image_url=res.fileList[0].tempFileURL
+						})
 					});
 				}
 			});
