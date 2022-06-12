@@ -7,8 +7,8 @@ exports.main = async (event, context) => {
 		context
 	})
 	let js_code = event.code
-	const appid = 'wx677cdf0c74ecfebf' //appid  
-	const secret = '05893277bb68c171aa560ada3f1dc293' //secret  
+	const appid = 'wx0a8bd897ecfe4927' //appid  
+	const secret = 'c947bd5b936a90f9a42e68ae31a21e31' //secret  
 	const loginUrl = 'https://api.weixin.qq.com/sns/jscode2session'
 
 	let res = {}
